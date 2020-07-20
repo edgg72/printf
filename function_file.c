@@ -21,7 +21,6 @@ int conditional_char(char n)
 	return (i);
 }
 
-
 /**
  * new_value - this function holds the struct
  *             with the character expected and the matching function
@@ -35,7 +34,7 @@ int (*new_value(char n))(va_list)
 {
 	int i = 0;
 
-	lo_p ftr[] = {
+	lo_p ftr[] = {             /* struct function*/
 		{"c", print_char},
 		{"s", print_str},
 		{"d", print_num},
