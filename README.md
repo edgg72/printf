@@ -1,4 +1,4 @@
-<h1>This repository contains 0x11. C - printf, tasks for Holberton School</h1>
+<h1>This repository contains 0x11. C - printf, tasks for Holberton School.</h1>
 <br>
 <h2>printf</h2>
 <hr>
