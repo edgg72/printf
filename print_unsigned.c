@@ -19,8 +19,6 @@ int print_unsigned(va_list uns)
 	unsigned int m, d, a;
 
 	m = n;
-	
-
 	d = m;
 	a = 1;
 
