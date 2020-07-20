@@ -14,7 +14,7 @@ int conditional_char(char n)
 {
 	int i = 0;
 
-	if (n == 'c' || n == 'i' || n == 'd' || n == 's' || n == 'u' || n == 'o')
+	if (n == 'c' || n == 'i' || n == 'd' || n == 's' || n == 'u')
 	{
 		i = 1;
 	}

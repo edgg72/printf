@@ -24,6 +24,7 @@ int _printf(const char *format, ...)
 	while (format[i] != '\0')
 	{
 		if (format[i] == '%')
+		{
 			i++;
 			if (format[i] == '%')
 			{
@@ -31,8 +32,9 @@ int _printf(const char *format, ...)
 				count++;
 			}
 			else if (conditional_char(format[i]) == 1)
+			{
 				count += (new_value(format[i]))(valist);
-
+			}
 			else if (format[i] != '\0')
 			{
 				_putchar('%');
