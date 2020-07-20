@@ -24,5 +24,6 @@ int print_str(va_list s);
 int (*new_value(char n))(va_list);
 int print_percent(va_list __attribute__((unused)) percent);
 int print_num(va_list num);
+int print_unsigned(va_list uns);
 
 #endif /* HOLBERTON_H_ */

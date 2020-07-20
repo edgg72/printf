@@ -14,7 +14,7 @@ int conditional_char(char n)
 {
 	int i = 0;
 
-	if (n == 'c' || n == 'i' || n == 'd' || n == 's')
+	if (n == 'c' || n == 'i' || n == 'd' || n == 's' || n == 'u' || n == 'o')
 	{
 		i = 1;
 	}
@@ -40,6 +40,7 @@ int (*new_value(char n))(va_list)
 		{"s", print_str},
 		{"d", print_num},
 		{"i", print_num},
+		{"u", print_unsigned},
 		/*    {"%", print_percent}, */
 		{NULL, NULL}
 	};
