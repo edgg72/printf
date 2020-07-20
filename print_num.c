@@ -3,7 +3,6 @@
 #include <unistd.h>
 #include <stdarg.h>
 
-
 /**
  * print_num - prints numbers
  * @num: number received
@@ -14,7 +13,7 @@
 int print_num(va_list num)
 {
 
-	int n = va_arg(num, int);
+	int n = va_arg(num, int); /*prints an integer 0x06-100-print_number.c */
 	int digit = 0;
 	unsigned int m, d, a;
 
