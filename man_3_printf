@@ -22,8 +22,7 @@ ARGUMENT of data type integer is printed.
 %b
 ARGUMENT of data type integer is converted to binary.
 .SH AUTHOR
-Written by Ever Daniel Gonzales and Hector Orozco.
+Written by Ever Daniel Gonzalez and Hector Orozco.
 1895@holbertonschool.com/2066@holbertonschool.com
 .SH BUGS
 Report _printf bugs to https://www.github.com/hfog2066/printf
-
