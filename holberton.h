@@ -9,7 +9,7 @@
  */
 
 
-typedef struct lo
+typedef struct lo           /* struct definition */
 {
 	char *chr;
 	int (*f)(va_list);
