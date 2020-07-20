@@ -1,0 +1,29 @@
+.TH _PRINTF "July 20 2020" "Holberton"
+.SH NAME
+_printf - print data about the format
+.SH SYNOPSIS
+.B _printf (const char *format, ...);
+.SH DESCRIPTION
+Print ARGUMENT(s) according to OPTION supplied FORMAT string:
+.TP
+FORMAT is the string to print including OPERATOR.
+.TP
+%%: a single %
+.TP
+%c
+ARGUMENT of data type character is printed.
+.TP
+%s
+ARGUMENT of data type string is printed.
+.TP
+%d%i
+ARGUMENT of data type integer is printed.
+.TP
+%b
+ARGUMENT of data type integer is converted to binary.
+.SH AUTHOR
+Written by Ever Daniel Gonzales and Hector Orozco.
+1895@holbertonschool.com/2066@holbertonschool.com
+.SH BUGS
+Report _printf bugs to https://www.github.com/hfog2066/printf
+
