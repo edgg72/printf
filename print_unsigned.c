@@ -11,7 +11,7 @@
  */
 
 
-int print_unsigned(va_list uns)
+int print_unsigned(va_list uns) /* basically the same as print_number  */
 {
 
 	int n = va_arg(uns, int);

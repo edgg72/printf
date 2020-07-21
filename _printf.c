@@ -17,7 +17,7 @@ int _printf(const char *format, ...)
 	va_list valist;        /* initializes variable to be used */
 	int count = 0, i = 0;  /* initializes counter and i variable */
 
-	va_start(valist, format); /* start call to function */
+	va_start(valist, format); /* start for valist */
 
 	if (format == NULL || (*format == '%' && strlen(format) == 1))
 		return (-1);

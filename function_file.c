@@ -62,7 +62,7 @@ int (*new_value(char n))(va_list)
  * Return: 1 because it's just one character
  */
 
-int print_char(va_list chr)
+int print_char(va_list chr) /* function for printing chars  */
 {
 	char b = (char)(va_arg(chr, int));
 
@@ -77,7 +77,7 @@ int print_char(va_list chr)
  * Return: length of string
  */
 
-int print_str(va_list s)
+int print_str(va_list s)  /* function for printing strings  */
 {
 	int i;
 	char *str = va_arg(s, char *);
