@@ -1,8 +1,8 @@
-<h1>This repository contains 0x11. C - printf, tasks for Holberton School.</h1>
+<h1>This repository contains 0x11. C - printf tasks for Holberton School.</h1>
 <br>
 <h2>printf</h2>
 <hr>
-<h3>The functions in printf() produce a output according to format.</h3>
+<h3>The functions in printf() produce an output according to format.</h3>
 <br>
 <h2>Tasks</h2>
 <hr>
