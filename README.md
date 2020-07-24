@@ -14,5 +14,6 @@
 <br>
 <h3>2. Just because it's in print doesn't mean it's the gospel.</h3>
 <h4>Create a man page for your function.</h4>
+<hr>
 ![Flowchart for the project](https://i.imgur.com/CdoOyED.jpg)
 <hr>
